@@ -109,5 +109,31 @@ from sub
 group by Food_name
 order by Total_selling desc
 
+--Query 2 Sub-Query
+select
+  order_date,
+  Customer,
+  Qty*selling_Price as Sale_amount
+  from (
+select 
+order_date,
+Name as Customer,
+employee_Name as Incharge,
+Food_Name,
+Qty,
+Selling_Price,
+py.Payment_method as Payment_by
+from daily_order as doa 
+join customer_data as cd on doa.customer_id = cd.Customer_id
+join employee_data as em on
+doa.In_charge = em.employee_id
+join payment_term as py on
+doa.payment_method = py.Payment_id
+join menu_data as md on 
+doa.menu_id = md.Menu_id 
+)
+group by 1
+order by 3 desc
+
 
 
