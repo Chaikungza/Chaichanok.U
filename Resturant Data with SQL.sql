@@ -135,5 +135,13 @@ doa.menu_id = md.Menu_id
 group by 1
 order by 3 desc
 
-
+--Query 3 Popular Payment way
+select
+  py.Payment_method,
+  count(*) as n_payment_by
+from daily_order as doa 
+join payment_term as py on
+doa.payment_method = py.Payment_id
+group by 1
+order by 2 desc
 
