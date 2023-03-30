@@ -1,6 +1,9 @@
 # **Bootcamp-Projet** 
-I'm studing Data Analyst with Data Boot camp by AdToy for 4 months program.
-1. Spreadsheets
+I'm studing Data Analyst with Data Boot camp (DataRockie) for 4 months program.
+
+Here it is for our project during the data boot camp
+
+1. Spreadsheet
 2. SQL :
    I create the database as restaurant owener and analyze & summary by SQL
 - [Resturant Data Base with SQL](https://github.com/Chaikungza/bootcamp-project/blob/e760eaaad54d29f071990b119459852385a13714/Resturant%20Data%20with%20SQL.sql).
