@@ -1,5 +1,4 @@
-# **Bootcamp-Projet** 
-I'm studing Data Analyst with Data Boot camp (DataRockie) for 4 months program.
+# **DataRockie Bootcamp-Projet** 
 
 Here it is for our project during the data boot camp
 
